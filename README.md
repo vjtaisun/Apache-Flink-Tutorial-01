@@ -50,7 +50,9 @@ $ export PATH=/home/vjtaisunubuntu/Downloads/flink-1.18.1/bin:$PATH
 python data_gen.py
 
 ## submit pyflink apps in another terminal - run flink job
-flink run -p 1 -py /home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/create_source.py -pyfs /home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/utils.py,/home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/models.py -pyreq /home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/requirements.txt -pyclientexec /home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/env/bin/python -pyexec /home/vjtaisunubuntu/Desktop/DemoProject/flight-data-sink/env/bin/python
+flink run -p 1 -py /home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/create_source.py -pyfs /home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/utils.py,/home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/models.py -pyreq /home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/requirements.txt -pyclientexec /home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/env/bin/python -pyexec /home/vjtaisunubuntu/Desktop/Apache-Flink-Tutorial-01/flight-data-sink/env/bin/python
 
 ## Creating python virtual enviroment zip - use script setup-pyflink-virtual-env.sh
 $ setup-pyflink-virtual-env.sh 1.10.2
+
+![](./images/flink-dashboard.png)
