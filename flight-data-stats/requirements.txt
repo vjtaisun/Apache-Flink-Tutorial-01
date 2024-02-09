@@ -1,0 +1,4 @@
+kafka-python
+schedule
+aiokafka
+apache-flink
